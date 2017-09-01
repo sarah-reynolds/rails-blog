@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		* {font-family: sans-serif;}
+		.center {
+			text-align: center;
+		}
+		.nav {
+			font-weight: bold;
+			margin: 10px 0 10px 0;
+			text-align: center;
+		}
+		.column {
+			float: left; 
+			width: 95%; 
+			padding: 5px;
+		}
+		.header_image {
+		  width: 95%;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<h1 class="center">About</h1>
+	<div class="center">
+		<%= image_tag 'blood_mountain-7.jpg', :class=> 'header_image' %>
+	</div>
+	<div class="nav"><%= link_to 'Home', root_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to 'About', about_path %></div>
+	<div class="column">
+		<h3>This is the about header</h3>
+		<p>Phasellus ornare sem non ipsum dignissim, blandit euismod sapien mattis. Praesent nec tempor purus. Nam interdum elit volutpat magna blandit, quis interdum nulla scelerisque. Morbi eu placerat nunc. Nunc at fermentum lacus. Nulla venenatis mauris at nibh vehicula, id pellentesque libero bibendum. Donec commodo lobortis justo in accumsan. Integer vel mauris dolor.</p>
+	</div>
+</body>
+</html>
