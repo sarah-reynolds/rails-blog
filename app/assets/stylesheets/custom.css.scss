@@ -1,2 +1,42 @@
+$navbar-default-bg: #E6E0E2;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: asset-url('blood_mountain-6.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.btn-lg {
+  border-radius: 0px;
+  border: none;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}

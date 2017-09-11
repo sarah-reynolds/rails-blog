@@ -2,31 +2,22 @@
 <html>
 <head>
 	<style type="text/css">
-		* {font-family: sans-serif;}
-		.center {
-			text-align: center;
-		}
-		.nav {
-			font-weight: bold;
-			margin: 10px 0 10px 0;
-			text-align: center;
-		}
 		.column {
 			float: left; 
 			width: 48%; 
 			padding: 5px;
 		}
 		.header_image {
-		  width: 95%;
+		  width: 50%;
 		}
 	</style>
 	<title></title>
 </head>
 <body>
-	<h1 class="center">Homepage</h1>
-	<div class="center">
-    <%= image_tag 'blood_mountain-6.jpg', :class=> 'header_image' %>
-  </div>
+<div class="jumbotron text-center">
+	  <h1>Alpha Blog</h1>
+	  <%= link_to "Join", "#", class: "btn btn-default btn-lg" %>
+</div>
 	<div class="nav"><%= link_to 'Home', root_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to 'About', about_path %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to 'Blog', articles_path %></div>
 	<div  class="column">
 		<h3>Left header</h3>
