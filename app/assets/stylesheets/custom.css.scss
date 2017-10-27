@@ -10,6 +10,10 @@ $navbar-default-bg: #E6E0E2;
   font-weight: bold;
 }
 
+.center {
+  text-align: center;
+}
+
 .jumbotron {
   background-image: asset-url('blood_mountain-6.jpg');
   background-size: cover;
@@ -43,6 +47,11 @@ $navbar-default-bg: #E6E0E2;
 .article-body {
   border-top: 1px solid #eaeaea;
   padding: 15px 0;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
 
 footer {
